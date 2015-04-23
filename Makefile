@@ -5,12 +5,12 @@ MD:=$(wildcard *.md)
 PDF:=$(MD:%.md=%.pdf)
 TEX:=$(MD:%.md=%.tex)
 
-TEXPARAMS = --include-before-body=fixunicode.tex --latex-engine=lualatex -t latex
+TEXPARAMS = --latex-engine=lualatex -t latex
 all: $(PDF)
-$(PDF): %.pdf: %.md
+$(PDF): %.pdf: %.md fixunicode.tex
 	pandoc $(TEXPARAMS) $*.md -o $*.pdf
 
-$(TEX): %.tex: %.md
+$(TEX): %.tex: %.md fixunicode.tex
 	pandoc --standalone $(TEXPARAMS) $*.md -o $*.tex
 
 clean:
