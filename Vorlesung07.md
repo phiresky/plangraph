@@ -56,7 +56,7 @@ berechne aus dem in Schritt 3 gefundenen s-t-Wegen in $\vec{G}_C$ gleiche Anzahl
 
 ---
 
-#### zu Schritt 1
+### zu Schritt 1
 
 `Bild`
 
@@ -65,7 +65,7 @@ berechne aus dem in Schritt 3 gefundenen s-t-Wegen in $\vec{G}_C$ gleiche Anzahl
 **Beweis**: zwei Fälle
 `Bilder`
 
-#### Zu Schritt 2
+### Zu Schritt 2
 
 $C_1,\dots,C_l$ in $\vec{G}$ so dass
 1. $\vec{G}_C$ enthält keine Rechtskreise, d.h. keine Kreise deren Inneres rechts liegt.
