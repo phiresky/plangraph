@@ -2,7 +2,7 @@
 
 
 MD:=$(wildcard *.md)
-VORL:=$(wildcard Vorlesung*.md)
+VORL:=$(sort $(wildcard Vorlesung*.md))
 PDF:=$(MD:%.md=%.pdf)
 TEX:=$(MD:%.md=%.tex)
 
