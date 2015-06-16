@@ -75,6 +75,8 @@ $fcap(X):=cap(X)-dens(X)$ **freie Kapazität** von X.
 
 Offensichtlich $fcap(X)\geq 0$ für alle $X \subset V$ notwendige Bedingung für Lösbarkeit.
 
-`Bild` Also $fcap(X)\geq 0$ für alle Schnitte $X\subseteq V$ ist nicht hinreichend für Lösbarkeit!a
+`Bild`
 
-Weitere Bedingung an Instanz: Für alle $X\subseteq V$ fcup(X) gerade. __Geradheitsbedingung__
+**Kapazitätsbedingung** $fcap(X)\geq 0$ für alle Schnitte $X\subseteq V$ ist nicht hinreichend für Lösbarkeit!
+
+**Geradheitsbedingung** Für alle $X\subseteq V$ fcup(X) gerade ist weitere Bedingung an Instanz
