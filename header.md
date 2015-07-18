@@ -9,3 +9,9 @@ include-before:
     - \input{fixunicode.tex}
 
 ---
+
+---
+
+Der Mitschrieb sollte vollständig sein, nur die 0. Vorlesung fehlt.
+
+Zeichnungen / Graphenbilder fehlen leider auch, die kann ich nicht flüssig malen, also falls jemand Lust hat die rein zu machen...
