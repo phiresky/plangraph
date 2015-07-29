@@ -9,3 +9,11 @@ Der Mitschrieb wurde von mir während den Vorlesungen erstellt. Er sollte alles 
 * Überschriftenebenen sind teilweise nicht richtig, weil das in der Vorlesung nicht immer auf den ersten Blick erkenntlich war.
 
 Falls da jemand was fixen will nehme ich natürlich gerne Pull-Requests ;)
+
+## Bauen
+
+```shell
+sudo pip2 install pandocfilters pygraphviz
+```
+
+`make`

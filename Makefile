@@ -6,7 +6,7 @@ VORL:=$(sort $(wildcard Vorlesung*.md))
 PDF:=$(MD:%.md=%.pdf)
 TEX:=$(MD:%.md=%.tex)
 
-TEXPARAMS = --toc --latex-engine=lualatex -t latex #-V classoption=draft
+TEXPARAMS = --filter ./graphviz.py --toc --latex-engine=lualatex -t latex #-V classoption=draft
 all: MitschriebPlanGraph2015SS.pdf #$(PDF)
 
 %.pdf: %.md fixunicode.tex
