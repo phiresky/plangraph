@@ -94,6 +94,13 @@ Ein Graph $G=(V,E)$ ist genau dann planar wenn er weder $K_5$ noch $K_{3,3}$ als
 
 ### Vorbereitung des Beweises
 
-`Bild K_{3,2}`
+```graphviz
+graph {
+	size="1,2!"
+	node[shape=circle,label=""]
+	{1 2} -- {3 4 5}
+}
+```
+Figure: $K_{3,2}$
 
-Nehme Graph der $K_{3,2}$ als Minor enthält θ-Graph (θ Minor von $K_{3,2}$)
+Nehme Graph der $K_{3,2}$ als Minor enthält $θ$-Graph ($θ$ Minor von $K_{3,2}$)
