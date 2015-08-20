@@ -7,11 +7,14 @@ header-includes:
 	- \usepackage{mathtools}
 include-before:
     - \input{fixunicode.tex}
+	- \setcounter{secnumdepth}{2}
 
 ---
 
 ---
 
-Der Mitschrieb sollte vollständig sein, nur die 0. Vorlesung fehlt.
+Der Mitschrieb sollte vollständig sein.
 
-Zeichnungen / Graphenbilder fehlen leider auch, die kann ich nicht flüssig malen, also falls jemand Lust hat die rein zu machen...
+Zeichnungen / Graphenbilder fehlen leider, die kann ich nicht flüssig malen, also falls jemand Lust hat die rein zu machen...
+
+\newpage

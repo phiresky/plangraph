@@ -1,0 +1,6 @@
+graph {
+	margin="0,0!"
+	size="1,2!"
+	node[shape=circle,label=""]
+	{1 2} -- {3 4 5}
+}
