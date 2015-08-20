@@ -23,7 +23,7 @@ angenommen es gäbe planare Einbettung von $K_5$, o.B.d.A. mit Knoten 1 kreuzung
 "Inneres" von 1241 und "Äußeres" von 1241
 ⇒ Kante {3,5} muss dann Kante {2,4} kreuzen
 
-`Illustration`
+*(todo: Illustration)*
 
 ## $K_{3,3}$ ist nicht planar
 $$K_{3,3} = (V,E), V := \{1,2,3,g,w,s\}, E := \{\{i,j\}: i \in \{1,2,3\}, j \in \{g,w,s\}\}$$
@@ -51,9 +51,9 @@ Definiere dazu Dualgraph G* = (V*,E*) wie folgt:
 - zu jeder Facette f $\in$ F def. Knoten $v_f$ in V\*
 - zu jeder Kante e = {u,v} $\in$ E gibt es eine Kante e\* $\in$ E\*, die die beiden Knoten in V\* zu den Facetten in F, die durch e getrennt werden, verbindet. 
 
-G = (V,E), F = ${f_1,f_2,f_3}$ `Graph mit Dualgraph`
+G = (V,E), F = ${f_1,f_2,f_3}$ *(todo: Graph mit Dualgraph)*
 
-G = (V,E), andere Darstellung `Graph`
+G = (V,E), andere Darstellung *(todo: Graph)*
 
 Eigenschaften des Dualgraphen:
 
@@ -79,9 +79,9 @@ IS
 	Entscheidender Fall: d(v) = 5:
 
 	sei Facette von v so eingebettet:
-	`Bild`
+	*(todo: Bild)*
 	Dann ex. gegenüberliegende Knoten $i,j \in \{1,2,3,4,5\}$ mit $\{i,j\} \notin E$.
 
 	Verschmelze i und j und färbe nach IV entspr. Graph mit 5 Farben. Dies induziert 5-Färbung von G-v, in der i und j dieselbe Farbe haben und entsprechend {1,2,3,4,5} nur 4 Farben benutzen. ⇒ Beh.
 
-	`Bild`
+	*(todo: Bild)*

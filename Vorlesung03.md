@@ -44,7 +44,7 @@ __Induktionsschritt__ $G=(V,E)$ pl. und $|V|\geq 4$, Kreis C der äußeren Facet
 
 zwei Fälle: C enthält Sehne $\{v,w\}$ im Inneren oder nicht
 
-`bild`
+*(todo: bild)*
 
 #### Fall 1: C enthält Sehne $\{v,w\}$
 
@@ -64,7 +64,7 @@ konst. Gegenbeispiel, d.h. planarer Graph mit Listenzuweisung mit Listen $S_v,|S
 
 Kern der Konstruktion:
 
-`bild`
+*(todo: bild)*
 
 hat "vis-à-vis-Eigenschaft", d.h. in korrekte Färbung müssen mind. zwei gegenüberliegende Eckknoten dieselbe Farben haben. (klar!)
 

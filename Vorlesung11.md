@@ -43,7 +43,7 @@ Sei A Menge der Kanten $\{u,v\}$ aus G mit u auf p und v rechts von p. Jede Kant
 Wenn $\{u,v\}$ durch ein $p_i$ besetzt, dann wegen Konstruktion von p in Orientierung $(u,v)$.
 
 *Fall 1*: es existiere $(u,v)$ mit $(u,v)$ *nicht* durch $p_1\dots p_i$ besetzt.
-`bild` Widerspruch zu RFS in Phase 2
+*(todo: bild)* Widerspruch zu RFS in Phase 2
 
 *Fall 2*: es existiert $\{u,v\}\in A, (u,v), (v,u) \notin \vec{G}$ ⇒ Widerspruch zu RFS in Phase 1
 

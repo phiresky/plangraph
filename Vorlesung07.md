@@ -30,7 +30,7 @@ Zu $G=(V,E)$, $s,t \in V$ finde max. Anzahl knotendisj. bzw. kantendisj. s-t-Weg
 
 _Spezialfall_: s und t liegen auf derselben Facette
 
-`Bild`
+*(todo: Bild)*
 
 RIGHT-FIRST $\hat=$ im Gegenuhrzeigersinn nächste freie Kante in Adjazenzliste (relativ zur aktuellen eingehenden Kante)
 
@@ -58,12 +58,12 @@ berechne aus dem in Schritt 3 gefundenen s-t-Wegen in $\vec{G}_C$ gleiche Anzahl
 
 ### zu Schritt 1
 
-`Bild`
+*(todo: Bild)*
 
 **Lemma**: Seien $p_1,\dots,p_r$ kantendisjunkte gerichtete s-t-Wege in $\vec{G}$. Dann enthält $P=\{\{u,v\}\in E:$ genau eine der Kanten (u,v) und (v,u) liegt auf einem der $p_i\}$ gerade r kantendisjunkte s-t-Wege in G.
 
 **Beweis**: zwei Fälle
-`Bilder`
+*(todo: Bilder)*
 
 ### Zu Schritt 2
 

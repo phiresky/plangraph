@@ -40,7 +40,7 @@ _Lemma:_ Ein planarer Graph mit n Knoten ($n \geq 3$) hat höchstens $3n - 6$ Ka
 
 _Beweis:_ o.B.d.A sei G maximal planar (d.h. Hinzunahme weiterer Kanten zerstört Planarität)
 
-`Bild`
+*(todo: Bild)*
 
 Dann ist für jede planare Einbettung jede Facette ein Dreieck und jede Kante grenzt an genau zwei Facetten.
 
@@ -62,7 +62,7 @@ _Folgerung:_ Jeder planare Graph enthält mind. einen Knoten v mit $d(v) \leq 5$
 
 ## Dualität von Schnitten und Kreisen
 
-`Bild Dualgraph`
+*(todo: Bild Dualgraph)*
 
 Planarer Graph G mit Einbettung $\mathcal{F}_i$ Dualgraph $G^*$ dazu. Dann gilt:
 
@@ -70,7 +70,7 @@ Ein Schnitt  in G ($\widehat{=}$ entspr. Kantenmenge) induziert eine Menge von K
 
 ## Minor bzw. Unterteilung
 
-`Bild G' Subgraph von G`
+*(todo: Bild G' Subgraph von G)*
 
 $G' = (V', E')$ heißt _Subgraph_ von $G=(V,E)$ wenn $V'\subseteq V$ und $E' \subseteq E$.
 
@@ -80,9 +80,9 @@ Ein Graph H heißt _Minor_ von G wenn H aus G entsteht durch Löschen von Knoten
 
 H ist _Minor_ von G falls G eine Unterteilung von H als Subgraph enthält.
 
-`Bild G' Unterteilung von G`
+*(todo: Bild G' Unterteilung von G)*
 
-`Bild G' Minor von G`
+*(todo: Bild G' Minor von G)*
 
 ## Satz von Kuratowski (1930)
 

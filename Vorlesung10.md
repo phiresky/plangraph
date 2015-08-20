@@ -33,7 +33,7 @@ Linearzeitalgorithmus für $G=(V,E)$ pl., Terminalpaare D auf äußerer Facette 
 
 $G,D = \{\{s_i,t_i\}:s_i,t_i\in V\} s_i,t_i$ alle auf äußerer Facette
 
-`bild bild`
+*(todo: bild bild)*
 
 daraus Instanz mit Klammerstruktur konstruieren:
 
@@ -54,7 +54,7 @@ i) keine zwei Wege $g_i,g_j$ kreuzen sich und
 ii) kein $g_i$ kreuzt sich selbst (wegen RF-Auswahlregel)
 
 Sei $\vec{G}=(V,\vec{E})$ Graph der durch $q_1\dots q_k$ induziert wird. Dann enthält $\vec G$ keinen Rechtskreis.
-`bild`
+*(todo: bild)*
 => induktiv über $q_i, 1\leq i \leq k$ kann gezeigt werden, dass $q_i'$ die "richtigen Terminale" verbindet.
 
 1. Phase in $O(n)$ klar. in 

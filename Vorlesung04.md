@@ -19,7 +19,7 @@ $w:E\to\mathbb{R}$
 
 Beide Probleme sind auch für bel. Graphen in P.
 
-`bild`
+*(todo: bild)*
 
 alternierender Weg bzgl. M → Vertauschen der Kanten auf Weg aus M mit Kanten auf Weg, die nicht in M sind resultiert in größerem Matching M*
 
@@ -56,7 +56,7 @@ Dann gilt:
 1. Falls es keinen bzgl. M erhöhenden Weg in G gibt mit Endknoten v, so hat M auch in G max. Gewicht
 2. Falls es bzgl. M erhöhenden Weg in G gibt mit Endknoten v und $w(P\cap E\setminus M) - w(P\cap M)$ maximal unter allen solchen erhöhenden Wegen, so ist $M^* = M \triangle P$ Matching maximalen Gewichts in G.
 
-`bild i) ii)`
+*(todo: bild i) ii))*
 
 #### Beweis
 

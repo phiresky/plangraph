@@ -18,7 +18,7 @@ Seien $l_1,\dots,l_r \in E$ die aus s auslaufenden Kanten, führe Schleife über
 
 RIGHT-FIRST-Suche kann zu "Konflikt" führen, d.h. Suche trifft auf einen bereits belegten Knoten
 
-- belegter Knoten:  `bild`
+- belegter Knoten:  *(todo: bild)*
 
 zwei mögliche Konfliktsituationen:
 
@@ -75,7 +75,7 @@ $fcap(X):=cap(X)-dens(X)$ **freie Kapazität** von X.
 
 Offensichtlich $fcap(X)\geq 0$ für alle $X \subset V$ notwendige Bedingung für Lösbarkeit.
 
-`Bild`
+*(todo: Bild)*
 
 **Kapazitätsbedingung** $fcap(X)\geq 0$ für alle Schnitte $X\subseteq V$ ist nicht hinreichend für Lösbarkeit!
 

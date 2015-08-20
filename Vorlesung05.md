@@ -49,7 +49,7 @@ Es gilt: G enthält Euler-Kreis g.d.w. E kantendisjunkte Vereinigung einfacher K
 
 Dualität von Schnitt in G und Menge von einf. Kreisen (= Kantenmenge, in der f.a. Knoten v $d(v)$ gerade (= gerade Menge)) in Dualgraph $G^*$ (bzgl. bel. pl. Einbettung)
 
-`bild gewichteter dualgraph`
+*(todo: bild gewichteter dualgraph)*
 
 \begin{itemize}
 \item[Schritt 1]
@@ -82,10 +82,10 @@ Matching M in $G=(V,E)$ mit $|V|$ gerade heißt perfekt falls $|M|=\frac{|V|}{2}
 
 beachte dass $G^*$ 3-regulär, Matching ergibt zwei Fälle:
 
-`Dreieck mit kante an jeder Ecke`
+*(todo: Dreieck mit kante an jeder Ecke)*
 
-_Fall 1_: `Alle drei äußeren Kanten gematcht` Fall 2: `Eine kante von dreieck, eine äußere`
-`bild `
+_Fall 1_: *(todo: Alle drei äußeren Kanten gematcht)* Fall 2: *(todo: Eine kante von dreieck, eine äußere)*
+*(todo: bild )*
 
 
 $G'$ entsteht aus $G^*$ indem jeder Knoten durch Dreieick ersetzt wird. Sei m #Kanten in $G^*$, n #Knoten in $G^*$ ⇒ $3n = 2m$ ⇒ n gerade ⇒ #Knoten in G' gerade

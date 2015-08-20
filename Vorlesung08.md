@@ -8,7 +8,7 @@ Sei $\vec{P}_C \subset \vec{E}_C$ Kantenmenge zu k s-t-Wegen in $\vec{G}_C$. Kon
 
 $$ \vec{P} := \text{siehe oben}$$
 
-`Bild`
+*(todo: Bild)*
 
 
 ### Zu Schritt 3
@@ -36,7 +36,7 @@ iii) $|A:=\{(u,v)\in \vec{E}_C: u \text{ auf }\vec{K}, v\in \text{Äußeres}(\ve
 
 $\vec{K}$ wird mittels LEFT-FIRST Rückwärtssuche von s aus in $\vec{P}_C$ konstruiert
 
-`Bild: Kreis mit t ausserhalb: Varianten wie K aussieht: 1. S liegt auf Kreis, 2. S liegt in Kreis`
+*(todo: Bild: Kreis mit t ausserhalb: Varianten wie K aussieht: 1. S liegt auf Kreis, 2. S liegt in Kreis)*
 
 #### Lemma
 
@@ -45,14 +45,14 @@ Betrachte $\vec{G}_C = (V,\vec{E}_C)$ und $\vec{K}$, dann ist jede Kante $(u,v) 
 
 #### Beweis
 
-i) wenn $p_1,\dots,p_l$ s-t-Wege und linkskreise von s nach s. Dann gehört keine der Kanten $(X,Y), X \in \text{Äußeres}(\vec{K})$ und y auf $\vec{K}$ zu einem der $p_i$ `bild`
+i) wenn $p_1,\dots,p_l$ s-t-Wege und linkskreise von s nach s. Dann gehört keine der Kanten $(X,Y), X \in \text{Äußeres}(\vec{K})$ und y auf $\vec{K}$ zu einem der $p_i$ *(todo: bild)*
 
     wegen Left-First in Graph induziert durch $p_1,\dots,p_l$ $(u,y)\notin p_i$ für alle $1 \leq i \leq l$ ⇒ für $(u,v)$ mit u auf $\vec{K}, r\in \text{Äußeres}(\vec{K})$ kann nicht auf einem Linkskreis aus $p_1,\dots,p_l$ liegen.
 
- ii) betrachte $(u,v)$ mit u auf $\vec{K}, v \in \text{Äußeres}(\vec{K})$ und $(u,w)$ mit w auf $\vec{K}$ `bild`
+ ii) betrachte $(u,v)$ mit u auf $\vec{K}, v \in \text{Äußeres}(\vec{K})$ und $(u,w)$ mit w auf $\vec{K}$ *(todo: bild)*
 
      _Annahme_: $(u,v)$ gehört zu keinem der $p_1,\dots,p_l$
 
 	 betrachte Referenzkante zu (u,w) in RIGHT-FIRST-SUCHE (Schritt 3)
 
-	 Referenzkante "liegt wie" `grün` oder `blau`, aber dann hätte RIGHT-FIRST _nicht_ (u,w) sondern (u,v) ⇒ Widerspruch
+	 Referenzkante "liegt wie" *(todo: grün)* oder *(todo: blau)*, aber dann hätte RIGHT-FIRST _nicht_ (u,w) sondern (u,v) ⇒ Widerspruch
