@@ -1,4 +1,4 @@
-> 2015-05-26 14:42:21 
+> (Beginn Vorlesung 2015-05-26)
 
 ## Beweis zu Folie (Kozykel und st-Schnitte)
 

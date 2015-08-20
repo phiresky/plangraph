@@ -1,4 +1,4 @@
-> 2015-06-17
+> (Beginn Vorlesung 2015-06-17)
 
 ## Zu Phase 2
 

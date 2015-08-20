@@ -1,4 +1,4 @@
-> (2014-04-29)
+> (Beginn Vorlesung 2015-04-29)
 
 # Färbung planarer Graphen (Kap.4 im Skript; "Listenfärbung" nicht im Skript, aber Folien)
 

@@ -1,3 +1,3 @@
-> (2014-04-21)
+> (Beginn Vorlesung 2015-04-21)
 
 Siehe Beweisfolien (kuratowski_slides.pdf)

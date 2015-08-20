@@ -1,4 +1,4 @@
-> 2015-05-20 14:10:24 
+> (Beginn Vorlesung 2015-05-20)
 
 ## Matching-Algorithmus für pl. Graph $G=(V,E)$
 

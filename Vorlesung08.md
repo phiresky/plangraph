@@ -1,4 +1,4 @@
-> 2015-06-03 14:07:31
+> (Beginn Vorlesung 2015-06-03)
 
 ### Zu Schritt 2 (Wdh)
 

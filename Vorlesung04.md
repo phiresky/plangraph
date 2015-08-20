@@ -1,4 +1,4 @@
-> 2015-05-12
+> (Beginn Vorlesung 2015-05-12)
 
 Bemerkung zu Planar Separator Theorem: Linearzeitimplementierung
 

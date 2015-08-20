@@ -1,4 +1,4 @@
-> 2015-06-16
+> (Beginn Vorlesung 2015-06-16)
 
 #### Satz von Okamura und Seymour
 
