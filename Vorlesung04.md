@@ -15,7 +15,7 @@ $G=(V,E)$, ein Matching $M \subseteq E$ sodass keine zwei Kanten aus M gemeinsam
 $w:E\to\mathbb{R}$
 
 - Finde $M \subseteq E$ _Matching mit max. Gewicht_, wobei $w(m)=\sum_{l \in M} w(l)$
-- Finde $M \subseteq E$ _Matching mit max. Kardinalität_, (Fall w(l) = 1 f.a. $l \in E$
+- Finde $M \subseteq E$ _Matching mit max. Kardinalität_, (Fall $w(l) = 1$ f.a. $l \in E$)
 
 Beide Probleme sind auch für bel. Graphen in P.
 
@@ -34,7 +34,7 @@ M Matching, P erhöhender Weg bzgl M ⇒ $M'=(M\setminus P) \cup (P\setminus M)$
 
 #### Lemma
 
-$G=(V,E), w:E\to \mathbb{R}$, M Matching in G. Dann ist $w(M)$ maximal genau dann wenn es keinen erhöhenden Weg bzgl. M gibt.
+Sei $G=(V,E), w:E\to \mathbb{R}$, M Matching in G. Dann ist $w(M)$ maximal genau dann wenn es keinen erhöhenden Weg bzgl. M gibt.
 
 #### Beweis
 
