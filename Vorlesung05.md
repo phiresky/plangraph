@@ -51,28 +51,20 @@ Dualität von Schnitt in G und Menge von einf. Kreisen (= Kantenmenge, in der f.
 
 *(todo: bild gewichteter dualgraph)*
 
-\begin{itemize}
-\item[Schritt 1]
+Schritt 1
+  ~ trianguliere G in O(n); zusätzliche Kanten erhalten Gewicht 0
 
-trianguliere G in O(n); zusätzliche Kanten erhalten Gewicht 0
+Schritt 2
+  ~ berechne in O(n) Dualgraph bzgl. bel. pl. Einbettung; $G^*$ ist dann 3-regulär (d.h. für alle v: d(v) = 3)
 
-\item[Schritt 2]
+Schritt 3
+  ~ konstruiere zu $G^*$ Graph $G'$ so dass perfektes Matching min. Gewichts in G' eine gerade Menge (bzw. Menge von Kreisen) max. Gewichts in $G^*$ induziert.
 
-berechne in O(n) Dualgraph bzgl. bel. pl. Einbettung; $G^*$ ist dann 3-regulär (d.h. für alle v: d(v) = 3)
+Schritt 4
+  ~ berechne in $O(n^{3/2} \log n)$ solch ein Matching bzw. gerade Menge
 
-\item[Schritt 3]
-
-konstruiere zu $G^*$ Graph $G'$ so dass perfektes Matching min. Gewichts in G' eine gerade Menge (bzw. Menge von Kreisen) max. Gewichts in $G^*$ induziert.
-
-\item[Schritt 4]
-
-berechne in $O(n^{3/2} \log n)$ solch ein Matching bzw. gerade Menge
-
-\item[Schritt 5]
-
-falls diese gerade Menge nicht leer, gib entspr. Schnitt aus. Ansonsten "Sonderfall"
-
-\end{itemize}
+Schritt 5
+  ~ falls diese gerade Menge nicht leer, gib entspr. Schnitt aus. Ansonsten "Sonderfall"
 
 Matching M in $G=(V,E)$ mit $|V|$ gerade heißt perfekt falls $|M|=\frac{|V|}{2}$
 

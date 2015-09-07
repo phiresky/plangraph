@@ -39,7 +39,7 @@ Graphen, die K5 oder K3,3 "enthalten" können also nicht planar sein.
 - Charakterisierung planarer Graphen "Satz von Kuratowski"
 - Planaritätstest geht in Linearzeit
 - es gibt Probleme, die i.A. NP-schwer sind, und in planaren Graphen polynomial lösbar, z.B. Max-Cut
-- polynomial lösbare Probleme, die in pl. Graphen effizieneter (oft in Linearzeit) gelöst werden können, z.B. Matchings, Menger, MaxFlow ...
+- polynomial lösbare Probleme, die in pl. Graphen effizienter (oft in Linearzeit) gelöst werden können, z.B. Matchings, Menger, MaxFlow ...
 
 ## Vierfarbensatz
 Jede Landkarte kann mit 4 Farben gefärbt werden. "Dualgraph" zu Landkarte ist planarer Graph (Länder als Knoten, Kanten als Grenzen) -> jeder pl. Graph kann mit 4 Farben gefärbt werden
@@ -48,6 +48,7 @@ Jede Landkarte kann mit 4 Farben gefärbt werden. "Dualgraph" zu Landkarte ist p
 #### Einschub: Konzept des Dualgraphen
 planarer Graph G = (V,E) mit pl. Einbettung mit Facettenmenge F von G bzgl. dieser Einbettung.
 Definiere dazu Dualgraph G* = (V*,E*) wie folgt:
+
 - zu jeder Facette f $\in$ F def. Knoten $v_f$ in V\*
 - zu jeder Kante e = {u,v} $\in$ E gibt es eine Kante e\* $\in$ E\*, die die beiden Knoten in V\* zu den Facetten in F, die durch e getrennt werden, verbindet. 
 
@@ -74,7 +75,7 @@ Beweis per Induktion über Anz. Knoten n.
 IS
 :	G habe n Knoten, v sei Knoten in G mit min. Grad.
 
-	Dann ist d(v) <= 5 (Beweis später)
+	Dann ist d(v) ≤ 5 (Beweis später)
 
 	Entscheidender Fall: d(v) = 5:
 

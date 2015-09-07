@@ -5,6 +5,7 @@ papersize: a4paper
 header-includes:
     - \usepackage{unicode-math}
 	- \usepackage{mathtools}
+	- \usepackage{ngerman}
 include-before:
     - \input{fixunicode.tex}
 	- \setcounter{secnumdepth}{2}
