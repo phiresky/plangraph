@@ -1,6 +1,6 @@
-> (Beginn Vorlesung 2015-04-29)
-
 # Färbung planarer Graphen
+
+> (Beginn Vorlesung 2015-04-29)
 
 (Kap.4 im Skript; "Listenfärbung" nicht im Skript, siehe [coloring_slides.pdf](coloring_slides.pdf))
 
@@ -54,7 +54,7 @@ $\{v,w\}$ induziert eindeutig bestimmte Kreise $C_1$ und $C_2$ welche jeweils Su
 
 #### Fall 2: C enthält keine Sehne
 
-Seien $v_{k-1},u_1,u_2,\dots u_l,v_1$ die Nachbarn von $v_k$. Da alle inneren Facetten Dreiecke ist $v_{k-1} u_1 \dots u_l v_1$ Weg P und $(C-v_k) \cup P = C'$ wird Kreis der äußere Facette begrenzt. "Reserviere" zwei Farben aus Liste von $v_k$ und entferne diese ggf. aus Listen von $u_1,\dots,u_l$. Wende IV auf durch $C'$ induz. Graph an. Höchstens eine der beiden reservieten Farben wird für $v_{k-1}$ verwendet, die andere kann für $v_k$ verwendet werden.
+Seien $v_{k-1},u_1,u_2,\dots u_l,v_1$ die Nachbarn von $v_k$. Da alle inneren Facetten Dreiecke ist $v_{k-1} u_1 \dots u_l v_1$ Weg P und $(C-v_k) \cup P = C'$ wird Kreis der äußere Facette begrenzt. "Reserviere" zwei Farben aus Liste von $v_k$ und entferne diese ggf. aus Listen von $u_1,\dots,u_l$. Wende IV auf durch $C'$ induz. Graph an. Höchstens eine der beiden reservierten Farben wird für $v_{k-1}$ verwendet, die andere kann für $v_k$ verwendet werden.
 
 #### Satz
 
@@ -70,5 +70,6 @@ Kern der Konstruktion:
 
 hat "vis-à-vis-Eigenschaft", d.h. in korrekte Färbung müssen mind. zwei gegenüberliegende Eckknoten dieselbe Farben haben. (klar!)
 
+*(todo: bilder)*
 
 ---
