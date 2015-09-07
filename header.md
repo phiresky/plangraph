@@ -2,6 +2,7 @@
 title: Mitschrieb Planare Graphen SS 2015
 author: Robin
 papersize: a4paper
+documentclass: scrreprt
 header-includes:
     - \usepackage{unicode-math}
 	- \usepackage{mathtools}
