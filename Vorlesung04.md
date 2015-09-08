@@ -14,12 +14,12 @@ PST: pl. $G=(V,E);$ existiert Separator S der G in $G_1=(V_1,E_1), G_2=(V_2,E_2)
 Separator S kann in Linearzeit gefunden werden.
 Kritische Stelle im Beweis des wichtigen Lemmas: Kreis induziert durch Nichtbaumkante
 
-### Fall 2 im Beweis des Lemmas
+## Fall 2 im Beweis des Lemmas
 
 * Vergleich $|Inneres K_{xt}|$ mit $|Inneres K_{ty}|$
 * amortisierte Analyse: Zuordnung der Iteration zu dem Kreis, der nicht mehr betrachtet wird
 
-# Matching
+# Matching in planaren Graphen
 
 > (Beginn Vorlesung 2015-05-12)
 

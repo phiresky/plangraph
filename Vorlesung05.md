@@ -1,6 +1,6 @@
-> (Beginn Vorlesung 2015-05-20)
+## Matching-Algorithmus für planare Graph $G=(V,E)$
 
-## Matching-Algorithmus für pl. Graph $G=(V,E)$
+> (Beginn Vorlesung 2015-05-20)
 
 1. Zerlege G in $G_1, G_2$ durch Separator S entspr. Planar-Separator-Theorem und berechne rekursiv in $G_1$ und $G_2$ Matchings $M_1$ bzw. $M_2$ maximalen Gewichts; bezeichne $M=M_1 \cup M_2$
 2. Solange $S\neq \emptyset$
@@ -17,7 +17,7 @@ Mit Master-Theorem kann t(n) abgeschätzt werden durch
 $$t(n) \in O(n^{3\over 2}) \text{falls } t'(n) \in O(n)$$
 $$t(n) \in O(n^{3\over 2} \log n) \text{falls } t'(n) \in O(n \log n)$$
 
-## Mixed-Max-Cut in pl. Graphen
+# Mixed-Max-Cut in planaren Graphen
 
 $G=(V,E), S\subseteq E$ _Schnitt_ von G falls durch $E\setminus S$ induz. Subgraph unzusammenhängend und für alle $\{u,v\} \in S$ u und v in verschiedenen Zusammenhangskomponenten dieses Subgraphs.
 
