@@ -45,7 +45,7 @@ Betrachte $\vec{G}_C = (V,\vec{E}_C)$ und $\vec{K}$, dann ist jede Kante $(u,v) 
 
 #### Beweis
 
-i) wenn $p_1,\dots,p_l$ s-t-Wege und linkskreise von s nach s. Dann gehört keine der Kanten $(X,Y), X \in \text{Äußeres}(\vec{K})$ und y auf $\vec{K}$ zu einem der $p_i$ *(todo: bild)*
+i) wenn $p_1,\dots,p_l$ s-t-Wege und linkskreise von s nach s. Dann gehört keine der Kanten $(x,y), x \in \text{Äußeres}(\vec{K})$ und y auf $\vec{K}$ zu einem der $p_i$ *(todo: bild)*
 
     wegen Left-First in Graph induziert durch $p_1,\dots,p_l$ $(u,y)\notin p_i$ für alle $1 \leq i \leq l$ ⇒ für $(u,v)$ mit u auf $\vec{K}, r\in \text{Äußeres}(\vec{K})$ kann nicht auf einem Linkskreis aus $p_1,\dots,p_l$ liegen.
 
