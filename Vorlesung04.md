@@ -16,7 +16,7 @@ Kritische Stelle im Beweis des wichtigen Lemmas: Kreis induziert durch Nichtbaum
 
 ### Fall 2 im Beweis des Lemmas
 
-* Vergleich $|Inneres K_{tx}|$ mit $|Inneres K_{ty}|$
+* Vergleich $|Inneres K_{xt}|$ mit $|Inneres K_{ty}|$
 * amortisierte Analyse: Zuordnung der Iteration zu dem Kreis, der nicht mehr betrachtet wird
 
 # Matching
