@@ -4,7 +4,7 @@
 
 Siehe Folien ([slides/flow_slides.pdf](slides/flow_slides.pdf))
 
-## Beweis zu Folie (Kozykel und st-Schnitte)
+## Beweis zu Folie "Kozykel und st-Schnitte"
 
 1) s,t auf selber Seite von $C^*$ ⇒ P kreuzt $C^*$ gleich oft in jeder Richtung ⇒ C enthält selbe Zahl von Kanten in P und rev(P) ⇒ $\pi(C) = 0$
 2) s rechts, t links ⇒ P kreuzt einmal mehr von rechts nach links ⇒ $\pi(C) = 1$
@@ -13,7 +13,7 @@ Siehe Folien ([slides/flow_slides.pdf](slides/flow_slides.pdf))
 C $s,t$-Schnitt ⇒ P kreuzt $C^*$ von rechts nach links ⇒ $\pi(C) = 1$.
 $\pi(C) = 1$ ⇒ Fall 2; s rechts, t links. ⇒ C st-Schnitt.
 
-## Beweis zu Folie "Betrachte Fluss von λ auf P"
+## Beweis zu Folie "Betrachte Fluss von $\lambda$ auf P"
 
 #### Beweis:
 

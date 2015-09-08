@@ -6,7 +6,7 @@
 2. Solange $S\neq \emptyset$
 	* wähle $v \in S, S:=S\setminus{\{v\}}$ und berechne mit Lemma aus $M'$ matching max. Gewichts in $G'+v$
 
----
+### Laufzeit
 
 $$t(n) = t(c_1 n) + t(c_2 n) + c_3 \cdot \sqrt{n} \cdot t'(n)$$
 
@@ -14,8 +14,8 @@ t'(n) Laufzeit für Lemma, $c_1,c_2,c_3$ Konstante; $c_1,c_2 \leq {2\over 3}, c_
 
 
 Mit Master-Theorem kann t(n) abgeschätzt werden durch
-$$t(n) \in O(n^{3\over 2}) \text{falls } t'(n) \in O(n)$$
-$$t(n) \in O(n^{3\over 2} \log n) \text{falls } t'(n) \in O(n \log n)$$
+$$t(n) \in O(n^{3\over 2}) \text{ falls } t'(n) \in O(n) \text{ (ohne Gewichte)}$$
+$$t(n) \in O(n^{3\over 2} \log n) \text{ falls } t'(n) \in O(n \log n) \text{ (mit Gewichten)}$$
 
 # Mixed-Max-Cut in planaren Graphen
 
@@ -26,7 +26,7 @@ Kantengewichte $w:E\to \mathbb{R}$
 
 #### Mixed-Max Cut
 
- Finde Schnitt S mit $w(s) = \sum_{l\in S} w(l)$ maximal.
+ Finde Schnitt S mit $w(S) = \sum_{l\in S} w(l)$ maximal.
 
 Ist in bel. Graphen NP-schwer.
 
@@ -80,7 +80,7 @@ _Fall 1_: *(todo: Alle drei äußeren Kanten gematcht)* Fall 2: *(todo: Eine kan
 *(todo: bild )*
 
 
-$G'$ entsteht aus $G^*$ indem jeder Knoten durch Dreieick ersetzt wird. Sei m #Kanten in $G^*$, n #Knoten in $G^*$ ⇒ $3n = 2m$ ⇒ n gerade ⇒ #Knoten in G' gerade
+$G'$ entsteht aus $G^*$ indem jeder Knoten durch Dreieck ersetzt wird. Sei m #Kanten in $G^*$, n #Knoten in $G^*$ ⇒ $3n = 2m$ ⇒ n gerade ⇒ #Knoten in G' gerade
 
 #### zu Schritt 4
 
@@ -90,10 +90,10 @@ __Beobachtung__: M perfektes Matching min. Gewichts in $G=(V,E)$ mit $w:E\to \ma
 
 _Erzwinge_ dass Matching max. Gewichts _perfekt_ ist:
 
-- zu M perfekt betrachte $$\overline{w}(M) = \sum_{l\in M} \overline{w}(l) = \frac{n}{2} W - \sum_{l \in M} w(l) \geq \frac{n}{2} \cdot (W-w_{max})$$, wobei $w_{max} = \max_{l \in E} w(l)$
-- zu M' nicht perfekt gilt $$\overline{w}(M') \leq (\frac{n}{2}-1)(W-w_{min}), w_{min} = \min_{l\in E} w(l)$$.
+- zu M perfekt betrachte $$\overline{w}(M) = \sum_{l\in M} \overline{w}(l) = \frac{n}{2} W - \sum_{l \in M} w(l) \geq \frac{n}{2} \cdot (W-w_{max})$$ wobei $$w_{max} = \max_{l \in E} w(l)$$
+- zu M' nicht perfekt gilt $$\overline{w}(M') \leq (\frac{n}{2}-1)(W-w_{min})$$ wobei $$w_{min} = \min_{l\in E} w(l)$$
 
-Wähle also W so dass $\frac{n}{2} \cdot (W-w_{max}) > (\frac{n}{2}-1)(W-w_{min})$
+Wähle also W so dass $\frac{n}{2} \cdot (W-w_{max}) > (\frac{n}{2}-1)(W-w_{min})$, also $$W > \frac{n}{2}(w_{max}-w_{min})+w_{min}$$
 
 #### zu Schritt 5
 
