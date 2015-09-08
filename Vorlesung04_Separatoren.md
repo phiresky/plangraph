@@ -2,7 +2,7 @@
 
 > (Beginn Vorlesung 2015-05-05)
 
-(siehe [planarseparator_slides.pdf](planarseparator_slides.pdf))
+(siehe [slides/planarseparator_slides.pdf](slides/planarseparator_slides.pdf))
 
 PST: planarer $G=(V,E);$ existiert Separator S der G in $G_1=(V_1,E_1), G_2=(V_2,E_2)$ trennt mit
 

@@ -2,7 +2,7 @@
 
 > (Beginn Vorlesung 2015-04-29)
 
-(Kap.4 im Skript; "Listenfärbung" nicht im Skript, siehe [coloring_slides.pdf](coloring_slides.pdf))
+(Kap.4 im Skript; "Listenfärbung" nicht im Skript, siehe [slides/coloring_slides.pdf](slides/coloring_slides.pdf))
 
 ## Färbungsproblem (k-Färbung)
 

@@ -1,6 +1,6 @@
 # Planartest in Linearzeit
 
-siehe Folien
+siehe Folien ([slides/planarity_slides.pdf](slides/planarity_slides.pdf))
 
 ## Beweis zum Lemma defekte Kanten bilden Pfad
 

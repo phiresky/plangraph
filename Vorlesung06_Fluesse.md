@@ -1,4 +1,8 @@
+# s-t-Flüsse
+
 > (Beginn Vorlesung 2015-05-26)
+
+Siehe Folien ([slides/flow_slides.pdf](slides/flow_slides.pdf))
 
 ## Beweis zu Folie (Kozykel und st-Schnitte)
 
