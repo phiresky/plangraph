@@ -4,7 +4,7 @@
 
 (siehe [planarseparator_slides.pdf](planarseparator_slides.pdf))
 
-PST: pl. $G=(V,E);$ existiert Separator S der G in $G_1=(V_1,E_1), G_2=(V_2,E_2)$ trennt mit
+PST: planarer $G=(V,E);$ existiert Separator S der G in $G_1=(V_1,E_1), G_2=(V_2,E_2)$ trennt mit
 
 1. $|V_1|,|V_2| \leq {2 \over 3} n$
 2. $|s| \leq 4 \sqrt{n}$

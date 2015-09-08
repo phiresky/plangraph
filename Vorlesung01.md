@@ -48,7 +48,7 @@ $$ 3 f = 2 m $$
 $$ \underset{mit~Euler}{=} $$
 $$ 3 (2-n+m) = 6-3n+3m $$
 
-_Lemma:_ Sei G pl. Graph mit mind 3 Knoten. $d_{max}(G)$ bezeichne Maximalgrad in G, $n_i$ \#Knoten von Grad i.
+_Lemma:_ Sei G planarer Graph mit mind 3 Knoten. $d_{max}(G)$ bezeichne Maximalgrad in G, $n_i$ \#Knoten von Grad i.
 
 Dann gilt: $$6n_0 + 5n_1 + 4n_2 + 3n_3 + 2n_4 + n_5 \geq n_7 + 2n_8 + 3n_9 + \dots + (d_{max}(G) - 6) * n_{d_{max}(G)} + 12$$
 

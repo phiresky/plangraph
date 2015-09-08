@@ -22,7 +22,7 @@ $$fcap(X) = \sum_{v\in X} cap(v) - \sum_{v\in X} dens(v) - 2\cdot |\{\{u,v\} \in
 
 Geradheitsbedingung überpfrüfen: Es reicht für alle $v\in V$ den Grad von v und \# $s_i,t_i$ auf V zu zählen.
 
-Linearzeitalgorithmus für $G=(V,E)$ pl., Terminalpaare D auf äußerer Facette und Geradheitsbedingung erfüllt.
+Linearzeitalgorithmus für $G=(V,E)$ planar, Terminalpaare D auf äußerer Facette und Geradheitsbedingung erfüllt.
 
 ### 2 Phasen
 

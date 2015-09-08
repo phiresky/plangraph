@@ -39,14 +39,14 @@ Graphen, die K5 oder K3,3 "enthalten" können also nicht planar sein.
 - Charakterisierung planarer Graphen "Satz von Kuratowski"
 - Planaritätstest geht in Linearzeit
 - es gibt Probleme, die i.A. NP-schwer sind, und in planaren Graphen polynomial lösbar, z.B. Max-Cut
-- polynomial lösbare Probleme, die in pl. Graphen effizienter (oft in Linearzeit) gelöst werden können, z.B. Matchings, Menger, MaxFlow ...
+- polynomial lösbare Probleme, die in planaren Graphen effizienter (oft in Linearzeit) gelöst werden können, z.B. Matchings, Menger, MaxFlow ...
 
 ## Vierfarbensatz
-Jede Landkarte kann mit 4 Farben gefärbt werden. "Dualgraph" zu Landkarte ist planarer Graph (Länder als Knoten, Kanten als Grenzen) -> jeder pl. Graph kann mit 4 Farben gefärbt werden
+Jede Landkarte kann mit 4 Farben gefärbt werden. "Dualgraph" zu Landkarte ist planarer Graph (Länder als Knoten, Kanten als Grenzen) -> jeder planare Graph kann mit 4 Farben gefärbt werden
 
 
 #### Einschub: Konzept des Dualgraphen
-planarer Graph G = (V,E) mit pl. Einbettung mit Facettenmenge F von G bzgl. dieser Einbettung.
+planarer Graph G = (V,E) mit planarer Einbettung mit Facettenmenge F von G bzgl. dieser Einbettung.
 Definiere dazu Dualgraph G* = (V*,E*) wie folgt:
 
 - zu jeder Facette f $\in$ F def. Knoten $v_f$ in V\*
@@ -64,11 +64,11 @@ iii) planarer Graph G kann verschiedene Dualgraphen haben (zu verschiedenen Einb
 
 
 ## Satz (1977 Appel & Haken)
-Jeder pl. Graph kann mit höchstens 4 Farben gefärbt werden.
+Jeder planare Graph kann mit höchstens 4 Farben gefärbt werden.
 Beweis mit Fallunterscheidung.
 
 #### "Folklore"
-pl. Graph kann mit 5 Farben gefärbt werden.
+planarer Graph kann mit 5 Farben gefärbt werden.
 
 Beweis per Induktion über Anz. Knoten n.
 

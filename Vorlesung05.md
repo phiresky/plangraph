@@ -36,7 +36,7 @@ Ist in bel. Graphen NP-schwer.
 
 Spezialfall: \textsc{Min Cut} Problem mit $w:E\to \mathbb{R}^{+}_0$ ist auch für bel. Graphen in P
 
-polynomialer Algorithmus für \textsc{Mixed-Max Cut} in pl. Graphen:
+polynomialer Algorithmus für \textsc{Mixed-Max Cut} in planaren Graphen:
 
 verwende:
 
@@ -47,7 +47,7 @@ Laufzeit in $O(n^{3/2} \log n)$.
 
 Es gilt: G enthält Euler-Kreis g.d.w. E kantendisjunkte Vereinigung einfacher Kreise g.d.w. für alle $v\in V$ ist Knotengrad $d(w)$ gerade.
 
-Dualität von Schnitt in G und Menge von einf. Kreisen (= Kantenmenge, in der f.a. Knoten v $d(v)$ gerade (= gerade Menge)) in Dualgraph $G^*$ (bzgl. bel. pl. Einbettung)
+Dualität von Schnitt in G und Menge von einf. Kreisen (= Kantenmenge, in der f.a. Knoten v $d(v)$ gerade (= gerade Menge)) in Dualgraph $G^*$ (bzgl. beliebiger planarer Einbettung)
 
 *(todo: bild gewichteter dualgraph)*
 
@@ -55,7 +55,7 @@ Schritt 1
   ~ trianguliere G in O(n); zusätzliche Kanten erhalten Gewicht 0
 
 Schritt 2
-  ~ berechne in O(n) Dualgraph bzgl. bel. pl. Einbettung; $G^*$ ist dann 3-regulär (d.h. für alle v: d(v) = 3)
+  ~ berechne in O(n) Dualgraph bzgl. beliebiger planarer Einbettung; $G^*$ ist dann 3-regulär (d.h. für alle v: d(v) = 3)
 
 Schritt 3
   ~ konstruiere zu $G^*$ Graph $G'$ so dass perfektes Matching min. Gewichts in G' eine gerade Menge (bzw. Menge von Kreisen) max. Gewichts in $G^*$ induziert.

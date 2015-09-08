@@ -42,7 +42,7 @@ Offensichtlich folgt daraus 5-Listenfärbbarkeit.
 
 Falls $G=(V,E)$ planar und $|V|=3$ trivial
 
-__Induktionsschritt__ $G=(V,E)$ pl. und $|V|\geq 4$, Kreis C der äußeren Facette begrenzt
+__Induktionsschritt__ $G=(V,E)$ planar und $|V|\geq 4$, Kreis C der äußeren Facette begrenzt
 
 zwei Fälle: C enthält Sehne $\{v,w\}$ im Inneren oder nicht
 

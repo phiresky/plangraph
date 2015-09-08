@@ -1,4 +1,4 @@
-# Das Menger-Problem
+# Das Menger-Problem in planaren Graphen
 
 Zur Erinnerung: $S \subset V$ heißt _Separator_ in $G=(V,E)$, falls $G-S$ unzusammenhängend. $S \subset E$ heißt _Schnitt_ in $G=(V,E)$ falls der durch $E\setminus S$ induzierte Teilgraph von G unzusammenhängend.
 
@@ -24,7 +24,7 @@ Seien s und t Knoten in $G=(V,E)$ ($\{s,t\} \notin E$ bei knotendisj. Version)
 
 Zu $G=(V,E)$, $s,t \in V$ finde max. Anzahl knotendisj. bzw. kantendisj. s-t-Wege.
 
-### Menger-Problem in pl. Graphen; kantendisj. Variante
+## Das kantendisjunkte Menger-Problem
 
 #### Linearzeitalgorithmus basierend _Right-First-DFS_
 
@@ -56,7 +56,7 @@ berechne aus dem in Schritt 3 gefundenen s-t-Wegen in $\vec{G}_C$ gleiche Anzahl
 
 ---
 
-### zu Schritt 1
+### Zu Schritt 1
 
 *(todo: Bild)*
 
