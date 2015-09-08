@@ -14,7 +14,7 @@ Linearzeitalgorithmus für knotendisjunktes Menger-Problem in planaren Graphen b
 
 #### Schritt 2
 
-Seien $l_1,\dots,l_r \in E$ die aus s auslaufenden Kanten, führe Schleife über $l_1,\dots,l_r$ aus, wobei im i-ten Durchlauf RIGHT-FIRSTT-Suche startend bei bei s mit $l_i$ ausgeführt wird. Durchlauf endet in t oder in s.
+Seien $l_1,\dots,l_r \in E$ die aus s auslaufenden Kanten, führe Schleife über $l_1,\dots,l_r$ aus, wobei im i-ten Durchlauf RIGHT-FIRSTT-Suche startend bei s mit $l_i$ ausgeführt wird. Durchlauf endet in t oder in s.
 
 RIGHT-FIRST-Suche kann zu "Konflikt" führen, d.h. Suche trifft auf einen bereits belegten Knoten
 

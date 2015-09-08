@@ -6,7 +6,7 @@ Sei von Startterminal im Gegenuhrzeigersinn jeweils $s_i$ vor $t_i$ und Indizier
 
 > Für i = 1 bis k
 >
-> > RFS von $s_i$ aus bis zu einem $t_j$ \} $\leadsto p_i$
+> > RFS von $s_i$ aus bis zu einem $t_j$ $\leadsto p_i$
 > > 
 > > falls $j\neq t$ stop
 >

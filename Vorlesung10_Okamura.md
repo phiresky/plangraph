@@ -20,13 +20,13 @@ $$fcap(X) = \sum_{v\in X} cap(v) - \sum_{v\in X} dens(v) - 2\cdot |\{\{u,v\} \in
 
 -> fcap(X) gerade
 
-Geradheitsbedingung überpfrüfen: Es reicht für alle $v\in V$ den Grad von v und \# $s_i,t_i$ auf V zu zählen.
+Geradheitsbedingung überprüfen: Es reicht für alle $v\in V$ den Grad von v und \# $s_i,t_i$ auf V zu zählen.
 
 Linearzeitalgorithmus für $G=(V,E)$ planar, Terminalpaare D auf äußerer Facette und Geradheitsbedingung erfüllt.
 
 ### 2 Phasen
 
-1. Konstruiere aus G,D "einfache Instanz" mit "Klammerstruktur" und berechne mittels RIGHT-FIRST Tiefensuche Lösungswege $q_1,\dots,q_k$. Diese induzieren gerichteten "Hilfsgraph".
+1. Konstruiere aus G, D "einfache Instanz" mit "Klammerstruktur" und berechne mittels RIGHT-FIRST Tiefensuche Lösungswege $q_1,\dots,q_k$. Diese induzieren gerichteten "Hilfsgraph".
 2. Berechne mittels gerichteter RIGHT-FIRST Tiefensuche in Hilfsgraph Lösungswege $p_1 \dots p_k$ die jeweils $s_i$ mit $t_i$ verbinden.
 
 ### Instanz mit Klammerstruktur
